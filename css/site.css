@@ -1,0 +1,32 @@
+.card-img-container {
+    overflow: hidden;
+    height: 25vh;
+}
+
+@media (min-width: 768px) {
+    .card-img-container {
+        height: 500px;
+    }
+}
+
+:root {
+    --bs-primary: #d8a7ff;
+    --bs-primary-rgb: 216, 167, 255;
+}
+
+.btn-primary {
+    background-color: #d8a7ff !important;
+    border-color: #d8a7ff !important;
+    color: #ffffff !important;
+}
+
+.btn-outline-primary {
+    color: #d8a7ff !important;
+    border-color: #d8a7ff !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    background-color: #d8a7ff !important;
+    color: #ffffff !important;
+}
