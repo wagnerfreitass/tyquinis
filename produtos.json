@@ -14,8 +14,7 @@
             ],
             "imagemPerfil": "img/acessorios/acessorio1.jpg",
             "imagens": [
-                "img/acessorios/acessorio1.jpg",
-                "img/acessorios/acessorio2.jpg"
+                "img/acessorios/acessorio1.jpg"
             ]
         },
         {
@@ -24,7 +23,7 @@
             "descricao": "Saia Curta",
             "valor": 75.00,
             "tamanhos": [
-                "P"
+                "Único"
             ],
             "categoria": "Acessórios",
             "cores": [
@@ -41,11 +40,11 @@
             "descricao": "Saia Estampada",
             "valor": 65.00,
             "tamanhos": [
-                "P"
+                "Único"
             ],
             "categoria": "Acessórios",
             "cores": [
-                "Branca"
+                "Estampada"
             ],
             "imagemPerfil": "img/acessorios/acessorio3.jpg",
             "imagens": [
@@ -58,11 +57,11 @@
             "descricao": "Saída Estampada",
             "valor": 70.00,
             "tamanhos": [
-                "P"
+                "Único"
             ],
             "categoria": "Acessórios",
             "cores": [
-                "Branca"
+                "Estampada"
             ],
             "imagemPerfil": "img/acessorios/acessorio4.jpg",
             "imagens": [
@@ -75,11 +74,11 @@
             "descricao": "Saia Transpassada",
             "valor": 50.00,
             "tamanhos": [
-                "P"
+                "Único"
             ],
             "categoria": "Acessórios",
             "cores": [
-                "Branca"
+                "Estampada"
             ],
             "imagemPerfil": "img/acessorios/acessorio5.jpg",
             "imagens": [
@@ -92,11 +91,11 @@
             "descricao": "Vestido Tricô",
             "valor": 65.00,
             "tamanhos": [
-                "P"
+                "Único"
             ],
             "categoria": "Acessórios",
             "cores": [
-                "Branca"
+                "Preto"
             ],
             "imagemPerfil": "img/acessorios/acessorio6.jpg",
             "imagens": [
@@ -109,7 +108,7 @@
             "descricao": "Bolsa Palha Praiana Marrom",
             "valor": 50.00,
             "tamanhos": [
-                "P"
+                "Único"
             ],
             "categoria": "Acessórios",
             "cores": [
@@ -126,11 +125,11 @@
             "descricao": "Saia de Praia Tricô",
             "valor": 60.00,
             "tamanhos": [
-                "P"
+                "Único"
             ],
             "categoria": "Acessórios",
             "cores": [
-                "Branca"
+                "Bege"
             ],
             "imagemPerfil": "img/acessorios/acessorio8.jpg",
             "imagens": [
@@ -143,7 +142,7 @@
             "descricao": "Conjunto Crochê",
             "valor": 100.00,
             "tamanhos": [
-                "P"
+                "Único"
             ],
             "categoria": "Acessórios",
             "cores": [
@@ -551,15 +550,16 @@
             "descricao": "Biquíni Meia Taça",
             "valor": 85.00,
             "tamanhos": [
-                "P"
+                "P,M,G"
             ],
             "categoria": "Biquinis",
             "cores": [
-                "Branca"
+                "Café com Off-white"
             ],
             "imagemPerfil": "img/biquinis/biquini21.jpg",
             "imagens": [
-                "img/biquinis/biquini21.jpg"
+                "img/biquinis/biquini21.jpg",
+                "img/biquinis/biquini21-2.jpg"
             ]
         },
         {
@@ -568,15 +568,16 @@
             "descricao": "Biquíni Hot Pants",
             "valor": 80.00,
             "tamanhos": [
-                "P"
+                "P,M,G"
             ],
             "categoria": "Biquinis",
             "cores": [
-                "Branca"
+                "Vermelho"
             ],
             "imagemPerfil": "img/biquinis/biquini22.jpg",
             "imagens": [
-                "img/biquinis/biquini22.jpg"
+                "img/biquinis/biquini22.jpg",
+                "img/biquinis/biquini22-2.jpg"
             ]
         },
         {
@@ -585,15 +586,17 @@
             "descricao": "Biquíni Top Fixo Duo",
             "valor": 70.00,
             "tamanhos": [
-                "P"
+                "P,M,G"
             ],
             "categoria": "Biquinis",
             "cores": [
-                "Branca"
+                "Azul com Branco"
             ],
             "imagemPerfil": "img/biquinis/biquini23.jpg",
             "imagens": [
-                "img/biquinis/biquini23.jpg"
+                "img/biquinis/biquini23.jpg",
+                "img/biquinis/biquini23-2.jpg",
+                "img/biquinis/biquini23-3.jpg"
             ]
         },
         {
@@ -602,15 +605,16 @@
             "descricao": "Biquíni Meia Taça",
             "valor": 80.00,
             "tamanhos": [
-                "P"
+                "P,M,G"
             ],
             "categoria": "Biquinis",
             "cores": [
-                "Branca"
+                "Rosa com Preto"
             ],
             "imagemPerfil": "img/biquinis/biquini24.jpg",
             "imagens": [
-                "img/biquinis/biquini24.jpg"
+                "img/biquinis/biquini24.jpg",
+                "img/biquinis/biquini24-2.jpg"
             ]
         },
         {
