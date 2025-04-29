@@ -2,8 +2,8 @@
     "produtos": [
         {
             "id": "1",
-            "nome": "Bolsa Palha Praiana Branca",
-            "descricao": "Bolsa Palha Praiana Branca",
+            "nome": "Palha Praiana Branca",
+            "descricao": "Palha Praiana Branca",
             "valor": 50.00,
             "tamanhos": [
                 "Único"
