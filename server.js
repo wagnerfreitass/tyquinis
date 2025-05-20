@@ -6,6 +6,8 @@ const cors = require('cors');
 const jwt = require('jsonwebtoken');
 const app = express();
 const port = 3000;
+const BASE_URL = 'https://tyquinis-api.onrender.com';
+
 
 
 app.use(cors());
@@ -76,8 +78,8 @@ app.post('/login', (req, res) => {
 app.post('/upload', authMiddleware, upload.single('imagem'), (req, res) => {
   if (!req.file) return res.status(400).json({ error: 'Nenhum arquivo enviado' });
 
-  const caminhoRelativo = `img/uploads/${req.file.filename}`;
-  res.json({ caminho: caminhoRelativo });
+  const caminhoAbsoluto = `${BASE_URL}/img/uploads/${req.file.filename}`;
+  res.json({ caminho: caminhoAbsoluto });
 });
 
 
