@@ -1,1097 +1,1099 @@
 {
-    "produtos": [
-        {
-            "id": "1",
-            "nome": "Bolsa Palha Praiana Branca",
-            "descricao": "Bolsa Palha Praiana Branca",
-            "valor": 50.00,
-            "tamanhos": [
-                "Único"
-            ],
-            "categoria": "Acessórios",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/acessorios/acessorio1.jpg",
-            "imagens": [
-                "img/acessorios/acessorio1.jpg"
-            ]
-        },
-        {
-            "id": "2",
-            "nome": "Saia Curta",
-            "descricao": "Saia Curta",
-            "valor": 75.00,
-            "tamanhos": [
-                "Único"
-            ],
-            "categoria": "Acessórios",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/acessorios/acessorio2.jpg",
-            "imagens": [
-                "img/acessorios/acessorio2.jpg"
-            ]
-        },
-        {
-            "id": "3",
-            "nome": "Saia Estampada",
-            "descricao": "Saia Estampada",
-            "valor": 65.00,
-            "tamanhos": [
-                "Único"
-            ],
-            "categoria": "Acessórios",
-            "cores": [
-                "Estampada"
-            ],
-            "imagemPerfil": "img/acessorios/acessorio3.jpg",
-            "imagens": [
-                "img/acessorios/acessorio3.jpg"
-            ]
-        },
-        {
-            "id": "4",
-            "nome": "Saída Estampada",
-            "descricao": "Saída Estampada",
-            "valor": 70.00,
-            "tamanhos": [
-                "Único"
-            ],
-            "categoria": "Acessórios",
-            "cores": [
-                "Estampada"
-            ],
-            "imagemPerfil": "img/acessorios/acessorio4.jpg",
-            "imagens": [
-                "img/acessorios/acessorio4.jpg"
-            ]
-        },
-        {
-            "id": "5",
-            "nome": "Saia Transpassada",
-            "descricao": "Saia Transpassada",
-            "valor": 50.00,
-            "tamanhos": [
-                "Único"
-            ],
-            "categoria": "Acessórios",
-            "cores": [
-                "Estampada"
-            ],
-            "imagemPerfil": "img/acessorios/acessorio5.jpg",
-            "imagens": [
-                "img/acessorios/acessorio5.jpg"
-            ]
-        },
-        {
-            "id": "6",
-            "nome": "Vestido Tricô",
-            "descricao": "Vestido Tricô",
-            "valor": 65.00,
-            "tamanhos": [
-                "Único"
-            ],
-            "categoria": "Acessórios",
-            "cores": [
-                "Preto"
-            ],
-            "imagemPerfil": "img/acessorios/acessorio6.jpg",
-            "imagens": [
-                "img/acessorios/acessorio6.jpg"
-            ]
-        },
-        {
-            "id": "7",
-            "nome": "Bolsa Palha Praiana Marrom",
-            "descricao": "Bolsa Palha Praiana Marrom",
-            "valor": 50.00,
-            "tamanhos": [
-                "Único"
-            ],
-            "categoria": "Acessórios",
-            "cores": [
-                "Marrom"
-            ],
-            "imagemPerfil": "img/acessorios/acessorio7.jpg",
-            "imagens": [
-                "img/acessorios/acessorio7.jpg"
-            ]
-        },
-        {
-            "id": "8",
-            "nome": "Saia de Praia Tricô",
-            "descricao": "Saia de Praia Tricô",
-            "valor": 60.00,
-            "tamanhos": [
-                "Único"
-            ],
-            "categoria": "Acessórios",
-            "cores": [
-                "Bege"
-            ],
-            "imagemPerfil": "img/acessorios/acessorio8.jpg",
-            "imagens": [
-                "img/acessorios/acessorio8.jpg"
-            ]
-        },
-        {
-            "id": "9",
-            "nome": "Conjunto Crochê",
-            "descricao": "Conjunto Crochê",
-            "valor": 100.00,
-            "tamanhos": [
-                "Único"
-            ],
-            "categoria": "Acessórios",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/acessorios/acessorio21.jpg",
-            "imagens": [
-                "img/acessorios/acessorio21.jpg"
-            ]
-        },
-        {
-            "id": "10",
-            "nome": "Bolsa Palha Praiana",
-            "descricao": "Bolsa Palha Praiana",
-            "valor": 50.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Acessórios",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/acessorios/acessorio22.jpg",
-            "imagens": [
-                "img/acessorios/acessorio22.jpg"
-            ]
-        },
-        {
-            "id": "11",
-            "nome": "Conjunto Crochê",
-            "descricao": "Conjunto Crochê",
-            "valor": 95.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Acessórios",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/acessorios/acessorio23.jpg",
-            "imagens": [
-                "img/acessorios/acessorio23.jpg"
-            ]
-        },
-        {
-            "id": "12",
-            "nome": "Bolsa Palha Praiana",
-            "descricao": "Bolsa Palha Praiana",
-            "valor": 50.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Acessórios",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/acessorios/acessorio24.jpg",
-            "imagens": [
-                "img/acessorios/acessorio24.jpg"
-            ]
-        },
-        {
-            "id": "13",
-            "nome": "Bolsa Palha Praiana",
-            "descricao": "Bolsa Palha Praiana",
-            "valor": 50.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Acessórios",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/acessorios/acessorio25.jpg",
-            "imagens": [
-                "img/acessorios/acessorio25.jpg"
-            ]
-        },
-        {
-            "id": "14",
-            "nome": "Conjunto Crochê",
-            "descricao": "Conjunto Crochê",
-            "valor": 95.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Acessórios",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/acessorios/acessorio26.jpg",
-            "imagens": [
-                "img/acessorios/acessorio26.jpg"
-            ]
-        },
-        {
-            "id": "15",
-            "nome": "Bolsa Palha Praiana",
-            "descricao": "Bolsa Palha Praiana",
-            "valor": 50.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Acessórios",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/acessorios/acessorio27.jpg",
-            "imagens": [
-                "img/acessorios/acessorio27.jpg"
-            ]
-        },
-        {
-            "id": "16",
-            "nome": "Vestido Crochê",
-            "descricao": "Vestido Crochê",
-            "valor": 100.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Acessórios",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/acessorios/acessorio28.jpg",
-            "imagens": [
-                "img/acessorios/acessorio28.jpg"
-            ]
-        },
-        {
-            "id": "17",
-            "nome": "Maiô Praia",
-            "descricao": "Maiô Praia",
-            "valor": 65.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Kids",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/kids/kds1.jpg",
-            "imagens": [
-                "img/kids/kds1.jpg"
-            ]
-        },
-        {
-            "id": "18",
-            "nome": "Kit Top e Short",
-            "descricao": "Kit Top e Short",
-            "valor": 75.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Kids",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/kids/kds2.jpg",
-            "imagens": [
-                "img/kids/kds2.jpg"
-            ]
-        },
-        {
-            "id": "19",
-            "nome": "Kit Blusa e Sunga",
-            "descricao": "Kit Blusa e Sunga",
-            "valor": 80.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Kids",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/kids/kds3.jpg",
-            "imagens": [
-                "img/kids/kds3.jpg"
-            ]
-        },
-        {
-            "id": "20",
-            "nome": "Kit Praia",
-            "descricao": "Kit Praia",
-            "valor": 80.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Kids",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/kids/kds4.jpg",
-            "imagens": [
-                "img/kids/kds4.jpg"
-            ]
-        },
-        {
-            "id": "21",
-            "nome": "Kit Top e Short",
-            "descricao": "Kit Top e Short",
-            "valor": 75.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Kids",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/kids/kds5.jpg",
-            "imagens": [
-                "img/kids/kds5.jpg"
-            ]
-        },
-        {
-            "id": "22",
-            "nome": "Kit Blusa e Short",
-            "descricao": "Kit Blusa e Short",
-            "valor": 80.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Kids",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/kids/kds6.jpg",
-            "imagens": [
-                "img/kids/kds6.jpg"
-            ]
-        },
-        {
-            "id": "23",
-            "nome": "Maiô Praia",
-            "descricao": "Maiô Praia",
-            "valor": 65.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Kids",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/kids/kds7.jpg",
-            "imagens": [
-                "img/kids/kds7.jpg"
-            ]
-        },
-        {
-            "id": "24",
-            "nome": "Maiô Manga Longa",
-            "descricao": "Maiô Manga Longa",
-            "valor": 85.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Kids",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/kids/kds8.jpg",
-            "imagens": [
-                "img/kids/kds8.jpg"
-            ]
-        },
-        {
-            "id": "25",
-            "nome": "Biquíni Hot Pants",
-            "descricao": "Biquíni Hot Pants",
-            "valor": 70.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Plus Size",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/plusSize/ps1.jpg",
-            "imagens": [
-                "img/plusSize/ps1.jpg"
-            ]
-        },
-        {
-            "id": "26",
-            "nome": "Biquíni Plus Top",
-            "descricao": "Biquíni Plus Top",
-            "valor": 70.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Plus Size",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/plusSize/ps2.jpg",
-            "imagens": [
-                "img/plusSize/ps2.jpg"
-            ]
-        },
-        {
-            "id": "27",
-            "nome": "Biquíni Tiras",
-            "descricao": "Biquíni Tiras",
-            "valor": 65.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Plus Size",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/plusSize/ps3.jpg",
-            "imagens": [
-                "img/plusSize/ps3.jpg"
-            ]
-        },
-        {
-            "id": "28",
-            "nome": "Biquíni Fio Dental",
-            "descricao": "Biquíni Fio Dental",
-            "valor": 60.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Plus Size",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/plusSize/ps4.jpg",
-            "imagens": [
-                "img/plusSize/ps4.jpg"
-            ]
-        },
-        {
-            "id": "29",
-            "nome": "Biquíni Plus Top",
-            "descricao": "Biquíni Plus Top",
-            "valor": 70.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Plus Size",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/plusSize/ps5.jpg",
-            "imagens": [
-                "img/plusSize/ps5.jpg"
-            ]
-        },
-        {
-            "id": "30",
-            "nome": "Maiô Plus Size",
-            "descricao": "Maiô Plus Size",
-            "valor": 80.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Plus Size",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/plusSize/ps6.jpg",
-            "imagens": [
-                "img/plusSize/ps6.jpg"
-            ]
-        },
-        {
-            "id": "31",
-            "nome": "Biquíni Hot Pants",
-            "descricao": "Biquíni Hot Pants",
-            "valor": 70.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Plus Size",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/plusSize/ps7.jpg",
-            "imagens": [
-                "img/plusSize/ps7.jpg"
-            ]
-        },
-        {
-            "id": "32",
-            "nome": "Biquíni Tiras",
-            "descricao": "Biquíni Tiras",
-            "valor": 65.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Plus Size",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/plusSize/ps8.jpg",
-            "imagens": [
-                "img/plusSize/ps8.jpg"
-            ]
-        },
-        {
-            "id": "33",
-            "nome": "Biquíni Meia Taça",
-            "descricao": "Biquíni Meia Taça",
-            "valor": 85.00,
-            "tamanhos": [
-                "P,M,G"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Café com Off-white"
-            ],
-            "imagemPerfil": "img/biquinis/biquini21.jpg",
-            "imagens": [
-                "img/biquinis/biquini21.jpg",
-                "img/biquinis/biquini21-2.jpg"
-            ]
-        },
-        {
-            "id": "34",
-            "nome": "Biquíni Hot Pants",
-            "descricao": "Biquíni Hot Pants",
-            "valor": 80.00,
-            "tamanhos": [
-                "P,M,G"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Vermelho"
-            ],
-            "imagemPerfil": "img/biquinis/biquini22.jpg",
-            "imagens": [
-                "img/biquinis/biquini22.jpg",
-                "img/biquinis/biquini22-2.jpg"
-            ]
-        },
-        {
-            "id": "35",
-            "nome": "Biquíni Top Fixo Duo",
-            "descricao": "Biquíni Top Fixo Duo",
-            "valor": 70.00,
-            "tamanhos": [
-                "P,M,G"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Azul com Branco"
-            ],
-            "imagemPerfil": "img/biquinis/biquini23.jpg",
-            "imagens": [
-                "img/biquinis/biquini23.jpg",
-                "img/biquinis/biquini23-2.jpg",
-                "img/biquinis/biquini23-3.jpg"
-            ]
-        },
-        {
-            "id": "36",
-            "nome": "Biquíni Meia Taça",
-            "descricao": "Biquíni Meia Taça",
-            "valor": 80.00,
-            "tamanhos": [
-                "P,M,G"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Rosa com Preto"
-            ],
-            "imagemPerfil": "img/biquinis/biquini24.jpg",
-            "imagens": [
-                "img/biquinis/biquini24.jpg",
-                "img/biquinis/biquini24-2.jpg"
-            ]
-        },
-        {
-            "id": "37",
-            "nome": "Biquíni Semi Fio",
-            "descricao": "Biquíni Semi Fio",
-            "valor": 70.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini25.jpg",
-            "imagens": [
-                "img/biquinis/biquini25.jpg"
-            ]
-        },
-        {
-            "id": "38",
-            "nome": "Biquíni Unilateral",
-            "descricao": "Biquíni Unilateral",
-            "valor": 80.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini26.jpg",
-            "imagens": [
-                "img/biquinis/biquini26.jpg"
-            ]
-        },
-        {
-            "id": "39",
-            "nome": "Biquíni Aro V",
-            "descricao": "Biquíni Aro V",
-            "valor": 75.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini27.jpg",
-            "imagens": [
-                "img/biquinis/biquini27.jpg"
-            ]
-        },
-        {
-            "id": "40",
-            "nome": "Biquíni Pircing",
-            "descricao": "Biquíni Pircing",
-            "valor": 70.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini28.jpg",
-            "imagens": [
-                "img/biquinis/biquini28.jpg"
-            ]
-        },
-        {
-            "id": "41",
-            "nome": "Biquíni Cós Alto",
-            "descricao": "Biquíni Cós Alto",
-            "valor": 65.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini31.jpg",
-            "imagens": [
-                "img/biquinis/biquini31.jpg"
-            ]
-        },
-        {
-            "id": "42",
-            "nome": "Biquíni Fita",
-            "descricao": "Biquíni Fita",
-            "valor": 50.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini32.jpg",
-            "imagens": [
-                "img/biquinis/biquini32.jpg"
-            ]
-        },
-        {
-            "id": "43",
-            "nome": "Biquíni Asa Delta",
-            "descricao": "Biquíni Asa Delta",
-            "valor": 55.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini33.jpg",
-            "imagens": [
-                "img/biquinis/biquini33.jpg"
-            ]
-        },
-        {
-            "id": "44",
-            "nome": "Biquíni Fita",
-            "descricao": "Biquíni Fita",
-            "valor": 50.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini34.jpg",
-            "imagens": [
-                "img/biquinis/biquini34.jpg"
-            ]
-        },
-        {
-            "id": "45",
-            "nome": "Biquíni Cós Alto",
-            "descricao": "Biquíni Cós Alto",
-            "valor": 65.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini35.jpg",
-            "imagens": [
-                "img/biquinis/biquini35.jpg"
-            ]
-        },
-        {
-            "id": "46",
-            "nome": "Biquíni Asa Delta",
-            "descricao": "Biquíni Asa Delta",
-            "valor": 55.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini36.jpg",
-            "imagens": [
-                "img/biquinis/biquini36.jpg"
-            ]
-        },
-        {
-            "id": "47",
-            "nome": "Biquíni Fita",
-            "descricao": "Biquíni Fita",
-            "valor": 50.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini37.jpg",
-            "imagens": [
-                "img/biquinis/biquini37.jpg"
-            ]
-        },
-        {
-            "id": "48",
-            "nome": "Biquíni Fita",
-            "descricao": "Biquíni Fita",
-            "valor": 50.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini38.jpg",
-            "imagens": [
-                "img/biquinis/biquini38.jpg"
-            ]
-        },
-        {
-            "id": "49",
-            "nome": "Biquíni Três Tiras",
-            "descricao": "Biquíni Três Tiras",
-            "valor": 120.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini41.jpg",
-            "imagens": [
-                "img/biquinis/biquini41.jpg"
-            ]
-        },
-        {
-            "id": "50",
-            "nome": "Biquíni Cós Alto Bicolor",
-            "descricao": "Biquíni Cós Alto Bicolor",
-            "valor": 60.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini42.jpg",
-            "imagens": [
-                "img/biquinis/biquini42.jpg"
-            ]
-        },
-        {
-            "id": "51",
-            "nome": "Biquíni Cós Alto Bicolor",
-            "descricao": "Biquíni Cós Alto Bicolor",
-            "valor": 60.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini43.jpg",
-            "imagens": [
-                "img/biquinis/biquini43.jpg"
-            ]
-        },
-        {
-            "id": "52",
-            "nome": "Biquíni Coração",
-            "descricao": "Biquíni Coração",
-            "valor": 90.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini44.jpg",
-            "imagens": [
-                "img/biquinis/biquini44.jpg"
-            ]
-        },
-        {
-            "id": "53",
-            "nome": "Biquíni Cós Alto Bicolor",
-            "descricao": "Biquíni Cós Alto Bicolor",
-            "valor": 60.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini45.jpg",
-            "imagens": [
-                "img/biquinis/biquini45.jpg"
-            ]
-        },
-        {
-            "id": "54",
-            "nome": "Conjunto Três Peças",
-            "descricao": "Conjunto Três Peças",
-            "valor": 120.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini46.jpg",
-            "imagens": [
-                "img/biquinis/biquini46.jpg"
-            ]
-        },
-        {
-            "id": "55",
-            "nome": "Biquíni Cós Alto Bicolor",
-            "descricao": "Biquíni Cós Alto Bicolor",
-            "valor": 60.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini47.jpg",
-            "imagens": [
-                "img/biquinis/biquini47.jpg"
-            ]
-        },
-        {
-            "id": "56",
-            "nome": "Biquíni Cós Alto Bicolor",
-            "descricao": "Biquíni Cós Alto Bicolor",
-            "valor": 60.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini48.jpg",
-            "imagens": [
-                "img/biquinis/biquini48.jpg"
-            ]
-        },
-        {
-            "id": "57",
-            "nome": "Biquíni Fita",
-            "descricao": "Biquíni Fita",
-            "valor": 50.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini1.jpg",
-            "imagens": [
-                "img/biquinis/biquini1.jpg"
-            ]
-        },
-        {
-            "id": "58",
-            "nome": "Biquíni Fio Duplo",
-            "descricao": "Biquíni Fio Duplo",
-            "valor": 80.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini2.jpg",
-            "imagens": [
-                "img/biquinis/biquini2.jpg"
-            ]
-        },
-        {
-            "id": "59",
-            "nome": "Biquíni Cortininha Cós Alto",
-            "descricao": "Biquíni Cortininha Cós Alto",
-            "valor": 80.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini3.jpg",
-            "imagens": [
-                "img/biquinis/biquini3.jpg"
-            ]
-        },
-        {
-            "id": "60",
-            "nome": "Biquíni Fita Com Detalhe Em Búzios",
-            "descricao": "Biquíni Fita Com Detalhe Em Búzios",
-            "valor": 75.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini4.jpg",
-            "imagens": [
-                "img/biquinis/biquini4.jpg"
-            ]
-        },
-        {
-            "id": "61",
-            "nome": "Maiô duo",
-            "descricao": "Maiô duo",
-            "valor": 80.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini5.jpg",
-            "imagens": [
-                "img/biquinis/biquini5.jpg"
-            ]
-        },
-        {
-            "id": "62",
-            "nome": "Biquíni Asa Delta",
-            "descricao": "Biquíni Asa Delta",
-            "valor": 55.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini6.jpg",
-            "imagens": [
-                "img/biquinis/biquini6.jpg"
-            ]
-        },
-        {
-            "id": "63",
-            "nome": "Biquíni Cortininha Cós Alto",
-            "descricao": "Biquíni Cortininha Cós Alto",
-            "valor": 65.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini7.jpg",
-            "imagens": [
-                "img/biquinis/biquini7.jpg"
-            ]
-        },
-        {
-            "id": "64",
-            "nome": "Asa Delta Top Fixo",
-            "descricao": "Asa Delta Top Fixo",
-            "valor": 55.00,
-            "tamanhos": [
-                "P"
-            ],
-            "categoria": "Biquinis",
-            "cores": [
-                "Branca"
-            ],
-            "imagemPerfil": "img/biquinis/biquini8.jpg",
-            "imagens": [
-                "img/biquinis/biquini8.jpg"
-            ]
-        }
-    ]
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Bolsa Palha Praiana Branca",
+      "descricao": "Bolsa Palha Praiana Branca",
+      "valor": 50,
+      "tamanhos": [
+        "Único"
+      ],
+      "categoria": "Acessórios",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/acessorios/acessorio1.jpg",
+      "imagens": [
+        "img/acessorios/acessorio1.jpg",
+        "img/acessorios/acessorio1.jpg"
+      ]
+    },
+    {
+      "id": "2",
+      "nome": "Saia Curta",
+      "descricao": "Saia Curta",
+      "valor": 80,
+      "tamanhos": [
+        "Único"
+      ],
+      "categoria": "Acessórios",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/acessorios/acessorio2.jpg",
+      "imagens": [
+        "img/acessorios/acessorio2.jpg",
+        "img/acessorios/acessorio2.jpg"
+      ]
+    },
+    {
+      "id": "3",
+      "nome": "Saia Estampada",
+      "descricao": "Saia Estampada",
+      "valor": 65,
+      "tamanhos": [
+        "Único"
+      ],
+      "categoria": "Acessórios",
+      "cores": [
+        "Estampada"
+      ],
+      "imagemPerfil": "img/acessorios/acessorio3.jpg",
+      "imagens": [
+        "img/acessorios/acessorio3.jpg"
+      ]
+    },
+    {
+      "id": "4",
+      "nome": "Saída Estampada",
+      "descricao": "Saída Estampada",
+      "valor": 70,
+      "tamanhos": [
+        "Único"
+      ],
+      "categoria": "Acessórios",
+      "cores": [
+        "Estampada"
+      ],
+      "imagemPerfil": "img/acessorios/acessorio4.jpg",
+      "imagens": [
+        "img/acessorios/acessorio4.jpg"
+      ]
+    },
+    {
+      "id": "5",
+      "nome": "Saia Transpassada",
+      "descricao": "Saia Transpassada",
+      "valor": 50,
+      "tamanhos": [
+        "Único"
+      ],
+      "categoria": "Acessórios",
+      "cores": [
+        "Estampada"
+      ],
+      "imagemPerfil": "img/acessorios/acessorio5.jpg",
+      "imagens": [
+        "img/acessorios/acessorio5.jpg"
+      ]
+    },
+    {
+      "id": "6",
+      "nome": "Vestido Tricô",
+      "descricao": "Vestido Tricô",
+      "valor": 65,
+      "tamanhos": [
+        "Único"
+      ],
+      "categoria": "Acessórios",
+      "cores": [
+        "Preto"
+      ],
+      "imagemPerfil": "img/acessorios/acessorio6.jpg",
+      "imagens": [
+        "img/acessorios/acessorio6.jpg"
+      ]
+    },
+    {
+      "id": "7",
+      "nome": "Bolsa Palha Praiana Marrom",
+      "descricao": "Bolsa Palha Praiana Marrom",
+      "valor": 50,
+      "tamanhos": [
+        "Único"
+      ],
+      "categoria": "Acessórios",
+      "cores": [
+        "Marrom"
+      ],
+      "imagemPerfil": "img/acessorios/acessorio7.jpg",
+      "imagens": [
+        "img/acessorios/acessorio7.jpg"
+      ]
+    },
+    {
+      "id": "8",
+      "nome": "Saia de Praia Tricô",
+      "descricao": "Saia de Praia Tricô",
+      "valor": 60,
+      "tamanhos": [
+        "Único"
+      ],
+      "categoria": "Acessórios",
+      "cores": [
+        "Bege"
+      ],
+      "imagemPerfil": "img/acessorios/acessorio8.jpg",
+      "imagens": [
+        "img/acessorios/acessorio8.jpg"
+      ]
+    },
+    {
+      "id": "9",
+      "nome": "Conjunto Crochê",
+      "descricao": "Conjunto Crochê",
+      "valor": 100,
+      "tamanhos": [
+        "Único"
+      ],
+      "categoria": "Acessórios",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/acessorios/acessorio21.jpg",
+      "imagens": [
+        "img/acessorios/acessorio21.jpg"
+      ]
+    },
+    {
+      "id": "10",
+      "nome": "Bolsa Palha Praiana",
+      "descricao": "Bolsa Palha Praiana",
+      "valor": 50,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Acessórios",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/acessorios/acessorio22.jpg",
+      "imagens": [
+        "img/acessorios/acessorio22.jpg"
+      ]
+    },
+    {
+      "id": "11",
+      "nome": "Conjunto Crochê",
+      "descricao": "Conjunto Crochê",
+      "valor": 95,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Acessórios",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/acessorios/acessorio23.jpg",
+      "imagens": [
+        "img/acessorios/acessorio23.jpg"
+      ]
+    },
+    {
+      "id": "12",
+      "nome": "Bolsa Palha Praiana",
+      "descricao": "Bolsa Palha Praiana",
+      "valor": 50,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Acessórios",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/acessorios/acessorio24.jpg",
+      "imagens": [
+        "img/acessorios/acessorio24.jpg"
+      ]
+    },
+    {
+      "id": "13",
+      "nome": "Bolsa Palha Praiana",
+      "descricao": "Bolsa Palha Praiana",
+      "valor": 50,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Acessórios",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/acessorios/acessorio25.jpg",
+      "imagens": [
+        "img/acessorios/acessorio25.jpg"
+      ]
+    },
+    {
+      "id": "14",
+      "nome": "Conjunto Crochê",
+      "descricao": "Conjunto Crochê",
+      "valor": 95,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Acessórios",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/acessorios/acessorio26.jpg",
+      "imagens": [
+        "img/acessorios/acessorio26.jpg"
+      ]
+    },
+    {
+      "id": "15",
+      "nome": "Bolsa Palha Praiana",
+      "descricao": "Bolsa Palha Praiana",
+      "valor": 50,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Acessórios",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/acessorios/acessorio27.jpg",
+      "imagens": [
+        "img/acessorios/acessorio27.jpg"
+      ]
+    },
+    {
+      "id": "16",
+      "nome": "Vestido Crochê",
+      "descricao": "Vestido Crochê",
+      "valor": 100,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Acessórios",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/acessorios/acessorio28.jpg",
+      "imagens": [
+        "img/acessorios/acessorio28.jpg"
+      ]
+    },
+    {
+      "id": "17",
+      "nome": "Maiô Praia",
+      "descricao": "Maiô Praia",
+      "valor": 65,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Kids",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/kids/kds1.jpg",
+      "imagens": [
+        "img/kids/kds1.jpg"
+      ]
+    },
+    {
+      "id": "18",
+      "nome": "Kit Top e Short",
+      "descricao": "Kit Top e Short",
+      "valor": 75,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Kids",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/kids/kds2.jpg",
+      "imagens": [
+        "img/kids/kds2.jpg"
+      ]
+    },
+    {
+      "id": "19",
+      "nome": "Kit Blusa e Sunga",
+      "descricao": "Kit Blusa e Sunga",
+      "valor": 80,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Kids",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/kids/kds3.jpg",
+      "imagens": [
+        "img/kids/kds3.jpg"
+      ]
+    },
+    {
+      "id": "20",
+      "nome": "Kit Praia",
+      "descricao": "Kit Praia",
+      "valor": 80,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Kids",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/kids/kds4.jpg",
+      "imagens": [
+        "img/kids/kds4.jpg"
+      ]
+    },
+    {
+      "id": "21",
+      "nome": "Kit Top e Short",
+      "descricao": "Kit Top e Short",
+      "valor": 75,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Kids",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/kids/kds5.jpg",
+      "imagens": [
+        "img/kids/kds5.jpg"
+      ]
+    },
+    {
+      "id": "22",
+      "nome": "Kit Blusa e Short",
+      "descricao": "Kit Blusa e Short",
+      "valor": 80,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Kids",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/kids/kds6.jpg",
+      "imagens": [
+        "img/kids/kds6.jpg"
+      ]
+    },
+    {
+      "id": "23",
+      "nome": "Maiô Praia",
+      "descricao": "Maiô Praia",
+      "valor": 65,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Kids",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/kids/kds7.jpg",
+      "imagens": [
+        "img/kids/kds7.jpg"
+      ]
+    },
+    {
+      "id": "24",
+      "nome": "Maiô Manga Longa",
+      "descricao": "Maiô Manga Longa",
+      "valor": 85,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Kids",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/kids/kds8.jpg",
+      "imagens": [
+        "img/kids/kds8.jpg"
+      ]
+    },
+    {
+      "id": "25",
+      "nome": "Biquíni Hot Pants",
+      "descricao": "Biquíni Hot Pants",
+      "valor": 70,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Plus Size",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/plusSize/ps1.jpg",
+      "imagens": [
+        "img/plusSize/ps1.jpg"
+      ]
+    },
+    {
+      "id": "26",
+      "nome": "Biquíni Plus Top",
+      "descricao": "Biquíni Plus Top",
+      "valor": 70,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Plus Size",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/plusSize/ps2.jpg",
+      "imagens": [
+        "img/plusSize/ps2.jpg"
+      ]
+    },
+    {
+      "id": "27",
+      "nome": "Biquíni Tiras",
+      "descricao": "Biquíni Tiras",
+      "valor": 65,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Plus Size",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/plusSize/ps3.jpg",
+      "imagens": [
+        "img/plusSize/ps3.jpg"
+      ]
+    },
+    {
+      "id": "28",
+      "nome": "Biquíni Fio Dental",
+      "descricao": "Biquíni Fio Dental",
+      "valor": 60,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Plus Size",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/plusSize/ps4.jpg",
+      "imagens": [
+        "img/plusSize/ps4.jpg"
+      ]
+    },
+    {
+      "id": "29",
+      "nome": "Biquíni Plus Top",
+      "descricao": "Biquíni Plus Top",
+      "valor": 70,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Plus Size",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/plusSize/ps5.jpg",
+      "imagens": [
+        "img/plusSize/ps5.jpg"
+      ]
+    },
+    {
+      "id": "30",
+      "nome": "Maiô Plus Size",
+      "descricao": "Maiô Plus Size",
+      "valor": 80,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Plus Size",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/plusSize/ps6.jpg",
+      "imagens": [
+        "img/plusSize/ps6.jpg"
+      ]
+    },
+    {
+      "id": "31",
+      "nome": "Biquíni Hot Pants",
+      "descricao": "Biquíni Hot Pants",
+      "valor": 70,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Plus Size",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/plusSize/ps7.jpg",
+      "imagens": [
+        "img/plusSize/ps7.jpg"
+      ]
+    },
+    {
+      "id": "32",
+      "nome": "Biquíni Tiras",
+      "descricao": "Biquíni Tiras",
+      "valor": 65,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Plus Size",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/plusSize/ps8.jpg",
+      "imagens": [
+        "img/plusSize/ps8.jpg"
+      ]
+    },
+    {
+      "id": "33",
+      "nome": "Biquíni Meia Taça",
+      "descricao": "Biquíni Meia Taça",
+      "valor": 85,
+      "tamanhos": [
+        "P,M,G"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Café com Off-white"
+      ],
+      "imagemPerfil": "img/biquinis/biquini21.jpg",
+      "imagens": [
+        "img/biquinis/biquini21.jpg",
+        "img/biquinis/biquini21-2.jpg"
+      ]
+    },
+    {
+      "id": "34",
+      "nome": "Biquíni Hot Pants",
+      "descricao": "Biquíni Hot Pants",
+      "valor": 80,
+      "tamanhos": [
+        "P,M,G"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Vermelho"
+      ],
+      "imagemPerfil": "img/biquinis/biquini22.jpg",
+      "imagens": [
+        "img/biquinis/biquini22.jpg",
+        "img/biquinis/biquini22-2.jpg"
+      ]
+    },
+    {
+      "id": "35",
+      "nome": "Biquíni Top Fixo Duo",
+      "descricao": "Biquíni Top Fixo Duo",
+      "valor": 70,
+      "tamanhos": [
+        "P,M,G"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Azul com Branco"
+      ],
+      "imagemPerfil": "img/biquinis/biquini23.jpg",
+      "imagens": [
+        "img/biquinis/biquini23.jpg",
+        "img/biquinis/biquini23-2.jpg",
+        "img/biquinis/biquini23-3.jpg"
+      ]
+    },
+    {
+      "id": "36",
+      "nome": "Biquíni Meia Taça",
+      "descricao": "Biquíni Meia Taça",
+      "valor": 80,
+      "tamanhos": [
+        "P,M,G"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Rosa com Preto"
+      ],
+      "imagemPerfil": "img/biquinis/biquini24.jpg",
+      "imagens": [
+        "img/biquinis/biquini24.jpg",
+        "img/biquinis/biquini24-2.jpg"
+      ]
+    },
+    {
+      "id": "37",
+      "nome": "Biquíni Semi Fio",
+      "descricao": "Biquíni Semi Fio",
+      "valor": 70,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini25.jpg",
+      "imagens": [
+        "img/biquinis/biquini25.jpg"
+      ]
+    },
+    {
+      "id": "38",
+      "nome": "Biquíni Unilateral",
+      "descricao": "Biquíni Unilateral",
+      "valor": 80,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini26.jpg",
+      "imagens": [
+        "img/biquinis/biquini26.jpg"
+      ]
+    },
+    {
+      "id": "39",
+      "nome": "Biquíni Aro V",
+      "descricao": "Biquíni Aro V",
+      "valor": 75,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini27.jpg",
+      "imagens": [
+        "img/biquinis/biquini27.jpg"
+      ]
+    },
+    {
+      "id": "40",
+      "nome": "Biquíni Pircing",
+      "descricao": "Biquíni Pircing",
+      "valor": 70,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini28.jpg",
+      "imagens": [
+        "img/biquinis/biquini28.jpg"
+      ]
+    },
+    {
+      "id": "41",
+      "nome": "Biquíni Cós Alto",
+      "descricao": "Biquíni Cós Alto",
+      "valor": 65,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini31.jpg",
+      "imagens": [
+        "img/biquinis/biquini31.jpg"
+      ]
+    },
+    {
+      "id": "42",
+      "nome": "Biquíni Fita",
+      "descricao": "Biquíni Fita",
+      "valor": 50,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini32.jpg",
+      "imagens": [
+        "img/biquinis/biquini32.jpg"
+      ]
+    },
+    {
+      "id": "43",
+      "nome": "Biquíni Asa Delta",
+      "descricao": "Biquíni Asa Delta",
+      "valor": 55,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini33.jpg",
+      "imagens": [
+        "img/biquinis/biquini33.jpg"
+      ]
+    },
+    {
+      "id": "44",
+      "nome": "Biquíni Fita",
+      "descricao": "Biquíni Fita",
+      "valor": 50,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini34.jpg",
+      "imagens": [
+        "img/biquinis/biquini34.jpg"
+      ]
+    },
+    {
+      "id": "45",
+      "nome": "Biquíni Cós Alto",
+      "descricao": "Biquíni Cós Alto",
+      "valor": 65,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini35.jpg",
+      "imagens": [
+        "img/biquinis/biquini35.jpg"
+      ]
+    },
+    {
+      "id": "46",
+      "nome": "Biquíni Asa Delta",
+      "descricao": "Biquíni Asa Delta",
+      "valor": 55,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini36.jpg",
+      "imagens": [
+        "img/biquinis/biquini36.jpg"
+      ]
+    },
+    {
+      "id": "47",
+      "nome": "Biquíni Fita",
+      "descricao": "Biquíni Fita",
+      "valor": 50,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini37.jpg",
+      "imagens": [
+        "img/biquinis/biquini37.jpg"
+      ]
+    },
+    {
+      "id": "48",
+      "nome": "Biquíni Fita",
+      "descricao": "Biquíni Fita",
+      "valor": 50,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini38.jpg",
+      "imagens": [
+        "img/biquinis/biquini38.jpg"
+      ]
+    },
+    {
+      "id": "49",
+      "nome": "Biquíni Três Tiras",
+      "descricao": "Biquíni Três Tiras",
+      "valor": 120,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini41.jpg",
+      "imagens": [
+        "img/biquinis/biquini41.jpg"
+      ]
+    },
+    {
+      "id": "50",
+      "nome": "Biquíni Cós Alto Bicolor",
+      "descricao": "Biquíni Cós Alto Bicolor",
+      "valor": 60,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini42.jpg",
+      "imagens": [
+        "img/biquinis/biquini42.jpg"
+      ]
+    },
+    {
+      "id": "51",
+      "nome": "Biquíni Cós Alto Bicolor",
+      "descricao": "Biquíni Cós Alto Bicolor",
+      "valor": 60,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini43.jpg",
+      "imagens": [
+        "img/biquinis/biquini43.jpg"
+      ]
+    },
+    {
+      "id": "52",
+      "nome": "Biquíni Coração",
+      "descricao": "Biquíni Coração",
+      "valor": 90,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini44.jpg",
+      "imagens": [
+        "img/biquinis/biquini44.jpg"
+      ]
+    },
+    {
+      "id": "53",
+      "nome": "Biquíni Cós Alto Bicolor",
+      "descricao": "Biquíni Cós Alto Bicolor",
+      "valor": 60,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini45.jpg",
+      "imagens": [
+        "img/biquinis/biquini45.jpg"
+      ]
+    },
+    {
+      "id": "54",
+      "nome": "Conjunto Três Peças",
+      "descricao": "Conjunto Três Peças",
+      "valor": 120,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini46.jpg",
+      "imagens": [
+        "img/biquinis/biquini46.jpg"
+      ]
+    },
+    {
+      "id": "55",
+      "nome": "Biquíni Cós Alto Bicolor",
+      "descricao": "Biquíni Cós Alto Bicolor",
+      "valor": 60,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini47.jpg",
+      "imagens": [
+        "img/biquinis/biquini47.jpg"
+      ]
+    },
+    {
+      "id": "56",
+      "nome": "Biquíni Cós Alto Bicolor",
+      "descricao": "Biquíni Cós Alto Bicolor",
+      "valor": 60,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini48.jpg",
+      "imagens": [
+        "img/biquinis/biquini48.jpg"
+      ]
+    },
+    {
+      "id": "57",
+      "nome": "Biquíni Fita",
+      "descricao": "Biquíni Fita",
+      "valor": 50,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini1.jpg",
+      "imagens": [
+        "img/biquinis/biquini1.jpg"
+      ]
+    },
+    {
+      "id": "58",
+      "nome": "Biquíni Fio Duplo",
+      "descricao": "Biquíni Fio Duplo",
+      "valor": 80,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini2.jpg",
+      "imagens": [
+        "img/biquinis/biquini2.jpg"
+      ]
+    },
+    {
+      "id": "59",
+      "nome": "Biquíni Cortininha Cós Alto",
+      "descricao": "Biquíni Cortininha Cós Alto",
+      "valor": 80,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini3.jpg",
+      "imagens": [
+        "img/biquinis/biquini3.jpg"
+      ]
+    },
+    {
+      "id": "60",
+      "nome": "Biquíni Fita Com Detalhe Em Búzios",
+      "descricao": "Biquíni Fita Com Detalhe Em Búzios",
+      "valor": 75,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini4.jpg",
+      "imagens": [
+        "img/biquinis/biquini4.jpg"
+      ]
+    },
+    {
+      "id": "61",
+      "nome": "Maiô duo",
+      "descricao": "Maiô duo",
+      "valor": 80,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini5.jpg",
+      "imagens": [
+        "img/biquinis/biquini5.jpg"
+      ]
+    },
+    {
+      "id": "62",
+      "nome": "Biquíni Asa Delta",
+      "descricao": "Biquíni Asa Delta",
+      "valor": 55,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini6.jpg",
+      "imagens": [
+        "img/biquinis/biquini6.jpg"
+      ]
+    },
+    {
+      "id": "63",
+      "nome": "Biquíni Cortininha Cós Alto",
+      "descricao": "Biquíni Cortininha Cós Alto",
+      "valor": 65,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini7.jpg",
+      "imagens": [
+        "img/biquinis/biquini7.jpg"
+      ]
+    },
+    {
+      "id": "64",
+      "nome": "Asa Delta Top Fixo",
+      "descricao": "Asa Delta Top Fixo",
+      "valor": 55,
+      "tamanhos": [
+        "P"
+      ],
+      "categoria": "Biquinis",
+      "cores": [
+        "Branca"
+      ],
+      "imagemPerfil": "img/biquinis/biquini8.jpg",
+      "imagens": [
+        "img/biquinis/biquini8.jpg"
+      ]
+    }
+  ]
 }

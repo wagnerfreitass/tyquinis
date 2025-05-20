@@ -53,8 +53,8 @@ $(document).ready(function () {
 
     // Lógica para a página de listagem (index.html)
     if ($("#lista-produtos").length > 0) {
-        $.getJSON('produtos.json', function (data) {
-            var produtos = data.produtos;
+        $.getJSON('/produtos', function (data) {
+            var produtos = data.produtos.slice().reverse();
             var categoriasUnicas = [];
 
             // Extraindo categorias únicas
@@ -138,7 +138,7 @@ $(document).ready(function () {
             return;
         }
 
-        $.getJSON('produtos.json', function (data) {
+        $.getJSON('/produtos', function (data) {
             var produtos = data.produtos;
             var produto = produtos.find(function (p) {
                 return p.id === idProduto;
