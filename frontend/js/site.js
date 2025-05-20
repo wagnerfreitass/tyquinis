@@ -53,7 +53,7 @@ $(document).ready(function () {
 
     // Lógica para a página de listagem (index.html)
     if ($("#lista-produtos").length > 0) {
-        $.getJSON('/produtos', function (data) {
+        $.getJSON('https://tyquinis-api.onrender.com/produtos', function (data) {
             var produtos = data.produtos.slice().reverse();
             var categoriasUnicas = [];
 
@@ -138,7 +138,7 @@ $(document).ready(function () {
             return;
         }
 
-        $.getJSON('/produtos', function (data) {
+        $.getJSON('https://tyquinis-api.onrender.com/produtos', function (data) {
             var produtos = data.produtos;
             var produto = produtos.find(function (p) {
                 return p.id === idProduto;
