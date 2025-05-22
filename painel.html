@@ -116,7 +116,9 @@
     try {
     const res = await fetch(`${API_URL}/produtos/${id}`, {
         method: 'DELETE',
-        headers: { Authorization: token }
+        headers: { 
+           Authorization: `Bearer ${token}`
+        }
       });
 
       console.log('Resposta do DELETE:', res.status);
@@ -216,7 +218,7 @@
            method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
-               Authorization: token
+               Authorization: `Bearer ${token}`
             },
             body: JSON.stringify(novoProduto)
         });
@@ -234,7 +236,7 @@
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            Authorization: token
+            Authorization: `Bearer ${token}`
           },
           body: JSON.stringify(novoProduto)
         });
