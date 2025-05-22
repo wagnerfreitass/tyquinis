@@ -214,14 +214,14 @@
       }
 
       if (modoEdicao) {
-        const resposta = await fetch(`${API_URL}/produtos/${idEditando}`, {
-           method: 'PUT',
-            headers: {
-                'Content-Type': 'application/json',
-               Authorization: `Bearer ${token}`
-            },
-            body: JSON.stringify(novoProduto)
-        });
+  const resposta = await fetch(`${API_URL}/produtos/${idEditando}`, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`
+    },
+    body: JSON.stringify(novoProduto)
+  });
 
   console.log('Resposta PUT status:', resposta.status);
   const texto = await resposta.text();
@@ -229,7 +229,9 @@
 
   modoEdicao = false;
   idEditando = null;
+  carregarProdutos();
 }
+
 
       else {
         await fetch(`${API_URL}/produtos`, {
