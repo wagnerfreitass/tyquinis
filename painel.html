@@ -109,16 +109,31 @@
 
     }
 
-    async function excluirProduto(id) {
-      console.log('Tentando excluir produto com ID:', id); // 👈 Teste
-      if (!confirm("Tem certeza que deseja excluir?")) return;
-      await fetch(`${API_URL}/produtos/${id}`, {
+  async function excluirProduto(id) {
+    console.log('Tentando excluir produto com ID:', id);
+    if (!confirm("Tem certeza que deseja excluir?")) return;
+
+    try {
+    const res = await fetch(`${API_URL}/produtos/${id}`, {
         method: 'DELETE',
-        headers: { Authorization: `Bearer ${token}` }
+        headers: { Authorization: token }
       });
-      console.log('Resposta do DELETE:', res.status); // 👈 Teste
-      carregarProdutos();
+
+      console.log('Resposta do DELETE:', res.status);
+      const texto = await res.text();
+      console.log('Resposta completa:', texto);
+
+      if (!res.ok) {
+        alert('Erro ao excluir produto');
+      } else {
+        carregarProdutos();
+      }
+
+    } catch (erro) {
+      console.error('Erro no DELETE:', erro);
     }
+    }
+
 
     function carregarParaEdicao(id) {
       console.log('Carregando produto para edição. ID:', id); // 👈 Teste
@@ -197,17 +212,24 @@
       }
 
       if (modoEdicao) {
-        await fetch(`${API_URL}/produtos/${idEditando}`, {
-          method: 'PUT',
-          headers: {
-            'Content-Type': 'application/json',
-            Authorization: `Bearer ${token}`
-          },
-          body: JSON.stringify(novoProduto)
+        const resposta = await fetch(`${API_URL}/produtos/${idEditando}`, {
+           method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json',
+               Authorization: token
+            },
+            body: JSON.stringify(novoProduto)
         });
-        modoEdicao = false;
-        idEditando = null;
-      } else {
+
+  console.log('Resposta PUT status:', resposta.status);
+  const texto = await resposta.text();
+  console.log('Texto da resposta PUT:', texto);
+
+  modoEdicao = false;
+  idEditando = null;
+}
+
+      else {
         await fetch(`${API_URL}/produtos`, {
           method: 'POST',
           headers: {
