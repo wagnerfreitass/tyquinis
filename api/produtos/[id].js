@@ -5,8 +5,9 @@ import jwt from 'jsonwebtoken';
 const SECRET_KEY = 'tyquinis-super-secreta';
 
 function verificarToken(req) {
-  const token = req.headers.authorization;
-  if (!token) return null;
+  const authHeader = req.headers.authorization;
+  if (!authHeader?.startsWith('Bearer ')) return null;
+  const token = authHeader.replace('Bearer ', '');
   try {
     return jwt.verify(token, SECRET_KEY);
   } catch {
