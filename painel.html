@@ -110,19 +110,23 @@
     }
 
     async function excluirProduto(id) {
+      console.log('Tentando excluir produto com ID:', id); // 👈 Teste
       if (!confirm("Tem certeza que deseja excluir?")) return;
       await fetch(`${API_URL}/produtos/${id}`, {
         method: 'DELETE',
         headers: { Authorization: `Bearer ${token}` }
       });
+      console.log('Resposta do DELETE:', res.status); // 👈 Teste
       carregarProdutos();
     }
 
     function carregarParaEdicao(id) {
+      console.log('Carregando produto para edição. ID:', id); // 👈 Teste
       fetch(`${API_URL}/produtos`)
         .then(res => res.json())
         .then(dados => {
           const produto = dados.produtos.find(p => p.id === id);
+      console.log('Produto encontrado:', produto); // 👈 Teste
           if (!produto) return alert('Produto não encontrado');
 
           document.getElementById('nome').value = produto.nome;
