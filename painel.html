@@ -20,7 +20,6 @@
         <input type="number" class="form-control mb-2" placeholder="Valor" id="valor" required>
         <input type="text" class="form-control mb-2" placeholder="Tamanhos (ex: P,M,G)" id="tamanhos" required>
         <input type="text" class="form-control mb-2" placeholder="Cores (ex: Branca,Preta)" id="cores" required>
-
         <select class="form-control mb-2" id="categoria" required>
           <option value="" disabled selected>Escolha a categoria</option>
           <option value="Biquinis">Biquinis</option>
@@ -28,13 +27,10 @@
           <option value="Kids">Kids</option>
           <option value="Plus Size">Plus Size</option>
         </select>
-
         <label for="upload-imagem" class="form-label">Imagem Principal</label>
         <input type="file" class="form-control mb-3" id="upload-imagem">
-
         <label for="outras-imagens" class="form-label">Demais Imagens (opcional)</label>
         <input type="file" class="form-control mb-2" id="outras-imagens" multiple>
-
         <div class="d-grid gap-2">
           <button class="btn btn-primary" type="submit">Salvar Produto</button>
           <button class="btn btn-secondary" type="button" onclick="cancelarFormulario()">Cancelar</button>
@@ -81,69 +77,61 @@
     }
 
     async function carregarProdutos() {
-      const res = await fetch(`${API_URL}/produtos`);
+      const res = await fetch(`${API_URL}/produtos?_=${Date.now()}`);
       const dados = await res.json();
       const container = document.getElementById('lista-produtos');
       container.innerHTML = '';
 
       const produtos = dados.produtos.slice().reverse();
       produtos.forEach(produto => {
-      const item = document.createElement('div');
-      item.className = 'd-flex align-items-center border p-2 mb-2 rounded bg-white';
-
-      item.innerHTML = `
-      <img src="${produto.imagemPerfil}" alt="${produto.nome}" style="width: 60px; height: 60px; object-fit: cover; border-radius: 5px; margin-right: 15px;">
-      <div class="flex-grow-1">
-      <h6 class="mb-1">${produto.nome}</h6>
-        <small class="text-muted">${produto.descricao.substring(0, 60)}...</small>
-      </div>
-        <div class="text-end" style="min-width: 150px;">
-        <strong class="d-block mb-1">R$ ${produto.valor.toFixed(2)}</strong>
-        <button class="btn btn-warning btn-sm me-2" onclick="carregarParaEdicao('${produto.id}')">Editar</button>
-        <button class="btn btn-danger btn-sm" onclick="excluirProduto('${produto.id}')">Excluir</button>
-      </div>
-  `;
-
-  container.appendChild(item);
-});
-
-    }
-
-  async function excluirProduto(id) {
-    console.log('Tentando excluir produto com ID:', id);
-    if (!confirm("Tem certeza que deseja excluir?")) return;
-
-    try {
-    const res = await fetch(`${API_URL}/produtos/${id}`, {
-        method: 'DELETE',
-        headers: { 
-           Authorization: `Bearer ${token}`
-        }
+        const item = document.createElement('div');
+        item.className = 'd-flex align-items-center border p-2 mb-2 rounded bg-white';
+        item.innerHTML = `
+          <img src="${produto.imagemPerfil}" alt="${produto.nome}" style="width: 60px; height: 60px; object-fit: cover; border-radius: 5px; margin-right: 15px;">
+          <div class="flex-grow-1">
+            <h6 class="mb-1">${produto.nome}</h6>
+            <small class="text-muted">${produto.descricao.substring(0, 60)}...</small>
+          </div>
+          <div class="text-end" style="min-width: 150px;">
+            <strong class="d-block mb-1">R$ ${produto.valor.toFixed(2)}</strong>
+            <button class="btn btn-warning btn-sm me-2" onclick="carregarParaEdicao('${produto.id}')">Editar</button>
+            <button class="btn btn-danger btn-sm" onclick="excluirProduto('${produto.id}')">Excluir</button>
+          </div>
+        `;
+        container.appendChild(item);
       });
+    }
 
-      console.log('Resposta do DELETE:', res.status);
-      const texto = await res.text();
-      console.log('Resposta completa:', texto);
-
-      if (!res.ok) {
-        alert('Erro ao excluir produto');
-      } else {
-        carregarProdutos();
+    async function excluirProduto(id) {
+      console.log('Tentando excluir produto com ID:', id);
+      if (!confirm("Tem certeza que deseja excluir?")) return;
+      try {
+        const res = await fetch(`${API_URL}/produtos/${id}`, {
+          method: 'DELETE',
+          headers: {
+            Authorization: `Bearer ${token}`
+          }
+        });
+        console.log('Resposta do DELETE:', res.status);
+        const texto = await res.text();
+        console.log('Resposta completa:', texto);
+        if (!res.ok) {
+          alert('Erro ao excluir produto');
+        } else {
+          setTimeout(carregarProdutos, 300);
+        }
+      } catch (erro) {
+        console.error('Erro no DELETE:', erro);
       }
-
-    } catch (erro) {
-      console.error('Erro no DELETE:', erro);
     }
-    }
-
 
     function carregarParaEdicao(id) {
-      console.log('Carregando produto para edição. ID:', id); // 👈 Teste
-      fetch(`${API_URL}/produtos`)
+      console.log('Carregando produto para edição. ID:', id);
+      fetch(`${API_URL}/produtos?_=${Date.now()}`)
         .then(res => res.json())
         .then(dados => {
           const produto = dados.produtos.find(p => p.id === id);
-      console.log('Produto encontrado:', produto); // 👈 Teste
+          console.log('Produto encontrado:', produto);
           if (!produto) return alert('Produto não encontrado');
 
           document.getElementById('nome').value = produto.nome;
@@ -164,15 +152,11 @@
     async function enviarImagem(file) {
       const formData = new FormData();
       formData.append('imagem', file);
-
       const resposta = await fetch(`${API_URL}/upload`, {
         method: 'POST',
-        headers: {
-          Authorization: token
-        },
+        headers: { Authorization: token },
         body: formData
       });
-
       const dados = await resposta.json();
       return dados.caminho;
     }
@@ -203,9 +187,7 @@
         imagens: []
       };
 
-      if (imagemPerfil) {
-        novoProduto.imagens.push(imagemPerfil);
-      }
+      if (imagemPerfil) novoProduto.imagens.push(imagemPerfil);
 
       const outrasImagens = document.getElementById('outras-imagens').files;
       for (let i = 0; i < outrasImagens.length; i++) {
@@ -214,35 +196,36 @@
       }
 
       if (modoEdicao) {
-  const resposta = await fetch(`${API_URL}/produtos/${idEditando}`, {
-    method: 'PUT',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${token}`
-    },
-    body: JSON.stringify(novoProduto)
-  });
-
-  console.log('Resposta PUT status:', resposta.status);
-  const texto = await resposta.text();
-  console.log('Texto da resposta PUT:', texto);
-
-  modoEdicao = false;
-  idEditando = null;
-  carregarProdutos();
-}
-
-
-      else {
-        await fetch(`${API_URL}/produtos`, {
-          method: 'POST',
+        const resposta = await fetch(`${API_URL}/produtos/${idEditando}`, {
+          method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
             Authorization: `Bearer ${token}`
           },
           body: JSON.stringify(novoProduto)
         });
+
+        console.log('Resposta PUT status:', resposta.status);
+        const texto = await resposta.text();
+        console.log('Texto da resposta PUT:', texto);
+
+        modoEdicao = false;
+        idEditando = null;
+        e.target.reset();
+        document.getElementById('formulario').style.display = 'none';
+
+        setTimeout(carregarProdutos, 300);
+        return;
       }
+
+      await fetch(`${API_URL}/produtos`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${token}`
+        },
+        body: JSON.stringify(novoProduto)
+      });
 
       e.target.reset();
       document.getElementById('formulario').style.display = 'none';
