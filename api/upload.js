@@ -1,34 +1,32 @@
 // api/upload.js
 import { createClient } from '@supabase/supabase-js';
 
-const supabase = createClient(
-  process.env.SUPABASE_URL,
-  process.env.SUPABASE_ANON_KEY
-);
-
-// Função auxiliar para extrair o nome do arquivo
-function getFileName(fileName) {
-  const timestamp = Date.now();
-  const sanitized = fileName.replace(/\s+/g, '_');
-  return `${timestamp}_${sanitized}`;
-}
-
 export const config = {
   api: {
     bodyParser: false,
   },
 };
 
+const supabase = createClient(
+  process.env.SUPABASE_URL,
+  process.env.SUPABASE_ANON_KEY
+);
+
+function getFileName(fileName) {
+  const timestamp = Date.now();
+  const sanitized = fileName.replace(/\s+/g, '_');
+  return `${timestamp}_${sanitized}`;
+}
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Método não permitido' });
   }
 
-  const busboy = await import('busboy');
-  const bb = busboy.default({ headers: req.headers });
+  const busboy = (await import('busboy')).default;
+  const bb = busboy({ headers: req.headers });
 
-  let uploadComplete = false;
-  let imageUrl = null;
+  let result = null;
 
   bb.on('file', async (fieldname, file, filename) => {
     const chunks = [];
@@ -38,31 +36,31 @@ export default async function handler(req, res) {
       const newFileName = getFileName(filename);
 
       const { data, error } = await supabase.storage
-        .from('imagens') // <- o nome do seu bucket
+        .from('imagens')
         .upload(`uploads/${newFileName}`, buffer, {
-          contentType: 'image/jpeg', // ou 'image/png' conforme o tipo
+          contentType: 'image/jpeg',
           upsert: false,
         });
 
       if (error) {
-        console.error('Erro ao fazer upload:', error);
-        return res.status(500).json({ error: 'Erro ao enviar imagem' });
+        result = { success: false, error };
+        return;
       }
 
       const { data: publicUrl } = supabase.storage
         .from('imagens')
         .getPublicUrl(data.path);
 
-      imageUrl = publicUrl.publicUrl;
-      uploadComplete = true;
+      result = { success: true, url: publicUrl.publicUrl };
     });
   });
 
   bb.on('finish', () => {
-    if (uploadComplete && imageUrl) {
-      return res.status(200).json({ caminho: imageUrl });
+    if (result?.success) {
+      res.status(200).json({ caminho: result.url });
     } else {
-      return res.status(500).json({ error: 'Erro ao processar imagem' });
+      console.error(result?.error || 'Erro desconhecido');
+      res.status(500).json({ error: 'Erro ao enviar imagem' });
     }
   });
 
