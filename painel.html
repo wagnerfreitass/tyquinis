@@ -88,22 +88,25 @@
 
       const produtos = dados.produtos.slice().reverse();
       produtos.forEach(produto => {
-        const card = document.createElement('div');
-        card.className = 'col-6 col-sm-6 col-md-6 col-lg-3 mb-4';
-        card.innerHTML = `
-          <div class="card p-2">
-            <img src="${produto.imagemPerfil}" class="card-img-top" alt="${produto.nome}">
-            <div class="card-body">
-              <h5 class="card-title">${produto.nome}</h5>
-              <p class="card-text">${produto.descricao}</p>
-              <p class="card-text"><strong>R$ ${produto.valor.toFixed(2)}</strong></p>
-              <button class="btn btn-warning btn-sm me-2" onclick="carregarParaEdicao('${produto.id}')">Editar</button>
-              <button class="btn btn-danger btn-sm" onclick="excluirProduto('${produto.id}')">Excluir</button>
-            </div>
-          </div>
-        `;
-        container.appendChild(card);
-      });
+      const item = document.createElement('div');
+      item.className = 'd-flex align-items-center border p-2 mb-2 rounded bg-white';
+
+      item.innerHTML = `
+      <img src="${produto.imagemPerfil}" alt="${produto.nome}" style="width: 60px; height: 60px; object-fit: cover; border-radius: 5px; margin-right: 15px;">
+      <div class="flex-grow-1">
+      <h6 class="mb-1">${produto.nome}</h6>
+        <small class="text-muted">${produto.descricao.substring(0, 60)}...</small>
+      </div>
+        <div class="text-end" style="min-width: 150px;">
+        <strong class="d-block mb-1">R$ ${produto.valor.toFixed(2)}</strong>
+        <button class="btn btn-warning btn-sm me-2" onclick="carregarParaEdicao('${produto.id}')">Editar</button>
+        <button class="btn btn-danger btn-sm" onclick="excluirProduto('${produto.id}')">Excluir</button>
+      </div>
+  `;
+
+  container.appendChild(item);
+});
+
     }
 
     async function excluirProduto(id) {
