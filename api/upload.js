@@ -26,48 +26,50 @@ export default async function handler(req, res) {
   const busboy = (await import('busboy')).default;
   const bb = busboy({ headers: req.headers });
 
-  let result = null;
+  let uploadPromise = null;
 
-  bb.on('file', async (fieldname, file, info) => {
+  bb.on('file', (fieldname, file, info) => {
     const { filename, mimeType } = info;
 
-    const chunks = [];
-    file.on('data', (data) => chunks.push(data));
-    file.on('end', async () => {
-      const buffer = Buffer.concat(chunks);
-      const newFileName = getFileName(filename);
+    uploadPromise = new Promise((resolve, reject) => {
+      const chunks = [];
+      file.on('data', (data) => chunks.push(data));
+      file.on('end', async () => {
+        try {
+          const buffer = Buffer.concat(chunks);
+          const newFileName = getFileName(filename);
 
-      const { data, error } = await supabase.storage
-        .from('imagens')
-        .upload(`uploads/${newFileName}`, buffer, {
-          contentType: mimeType || 'image/jpeg',
-          upsert: false,
-        });
+          const { data, error } = await supabase.storage
+            .from('imagens')
+            .upload(`uploads/${newFileName}`, buffer, {
+              contentType: mimeType || 'image/jpeg',
+              upsert: false,
+            });
 
-      if (error) {
-        result = { success: false, error };
-        return;
-      }
+          if (error || !data?.path) {
+            return reject(error || 'Path da imagem ausente');
+          }
 
-      if (!data?.path) {
-        result = { success: false, error: 'Path da imagem ausente' };
-        return;
-      }
+          const { data: publicUrl } = supabase.storage
+            .from('imagens')
+            .getPublicUrl(data.path);
 
-      const { data: publicUrl } = supabase.storage
-        .from('imagens')
-        .getPublicUrl(data.path);
-
-      result = { success: true, url: publicUrl.publicUrl };
+          resolve(publicUrl.publicUrl);
+        } catch (err) {
+          reject(err);
+        }
+      });
     });
   });
 
-  bb.on('finish', () => {
-    if (result?.success) {
-      res.status(200).json({ caminho: result.url });
-    } else {
-      console.error(result?.error || 'Erro desconhecido');
-      res.status(500).json({ error: 'Erro ao enviar imagem' });
+  bb.on('finish', async () => {
+    try {
+      if (!uploadPromise) throw new Error('Nenhum arquivo processado');
+      const imageUrl = await uploadPromise;
+      return res.status(200).json({ caminho: imageUrl });
+    } catch (err) {
+      console.error('Erro ao processar imagem:', err);
+      return res.status(500).json({ error: 'Erro ao enviar imagem' });
     }
   });
 
