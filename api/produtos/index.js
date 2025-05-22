@@ -25,7 +25,7 @@ export default async function handler(req, res) {
     const usuario = verificarToken(req);
     if (!usuario) return res.status(403).json({ error: 'Token inválido' });
 
-    const novoProduto = { ...req.body, id: Date.now().toString() };
+    const novoProduto = { ...req.body };
     const { error } = await supabase.from('produtos').insert(novoProduto);
     if (error) return res.status(500).json(error);
     return res.status(201).json({ message: 'Produto adicionado com sucesso!' });
