@@ -28,7 +28,9 @@ export default async function handler(req, res) {
 
   let result = null;
 
-  bb.on('file', async (fieldname, file, filename) => {
+  bb.on('file', async (fieldname, file, info) => {
+    const { filename, mimeType } = info;
+
     const chunks = [];
     file.on('data', (data) => chunks.push(data));
     file.on('end', async () => {
@@ -38,12 +40,17 @@ export default async function handler(req, res) {
       const { data, error } = await supabase.storage
         .from('imagens')
         .upload(`uploads/${newFileName}`, buffer, {
-          contentType: 'image/jpeg',
+          contentType: mimeType || 'image/jpeg',
           upsert: false,
         });
 
       if (error) {
         result = { success: false, error };
+        return;
+      }
+
+      if (!data?.path) {
+        result = { success: false, error: 'Path da imagem ausente' };
         return;
       }
 
