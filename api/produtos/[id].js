@@ -1,5 +1,5 @@
 // api/produtos/[id].js
-import { supabase } from '../../supabaseClient.js';
+import supabase from '../../supabaseClient.js';
 import jwt from 'jsonwebtoken';
 
 const SECRET_KEY = 'tyquinis-super-secreta';
