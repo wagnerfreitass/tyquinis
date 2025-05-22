@@ -113,7 +113,7 @@
       if (!confirm("Tem certeza que deseja excluir?")) return;
       await fetch(`${API_URL}/produtos/${id}`, {
         method: 'DELETE',
-        headers: { Authorization: token }
+        headers: { Authorization: `Bearer ${token}` }
       });
       carregarProdutos();
     }
@@ -197,7 +197,7 @@
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
-            Authorization: token
+            Authorization: `Bearer ${token}`
           },
           body: JSON.stringify(novoProduto)
         });
